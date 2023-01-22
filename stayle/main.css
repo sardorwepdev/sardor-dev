@@ -1,25 +1,45 @@
-
-*{
-    box-sizing: border-box;
+body{
+    background-color: rgb(47, 51, 52);
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
 }
-.shijak{
+
+.continer{
+    background-image: url(https://wallpapercave.com/dwp1x/wp8528062.jpg );
+    background-size: 400px;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 150px;
+    left: 500px;
+    background-color: rgb(47, 51, 52);color: rgb(222, 215, 2);
+    text-align: center;
+   box-shadow: 2px 3px 4px 5px rgb(75, 75, 75);
+  overflow: hidden;
+    
+}
+
+.box-2{
+    position:absolute;
+    top: 290px;
+}
+p{
+transform: translateY(290px);
+}
+.continer :hover.box-2 p{
+    transition:  1s;
     position: relative;
-    margin-left: 30px;
-   margin-top: 90px;
+ transform: translate(0px);
+ text-align: center;
+ overflow: hidden;
+ color: rgb(249, 244, 244);
+ left: 19px;
+ 
 }
 
-.shijak a{
-  
-   
-    padding: 20px 40px;
-   border: 2px solid rgb(00, 00, 213);
-    color: black;
-    text-decoration: none;
-   
-}
-.shijak:hover a{
-    background-color: rgb(0, 0, 213);
-    border: 2px solid rgb(00, 00, 213);;
-    color: aliceblue;
-    transition: all 1s;
+.box-3{
+    position: relative;
+    top: 270px;
+    left: -77px;
 }
