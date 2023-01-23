@@ -10,8 +10,9 @@ body{
     top: 8px;
     left: -590px;
     margin-left: 10px;
+    position: fixed;
 }
-.ul ul,li,a{
+.home ul,li,a{
     position: relative;
     color: gold;
     display: flex;
@@ -20,11 +21,14 @@ body{
     padding: 6px;
     font-size: 15px;
     left: 300px;
- 
+   
    
 }
+.home{
+    position: fixed;
+}
 
-.ul :hover a{ 
+.home :hover a{ 
     color: aqua;
     box-shadow: 1px 1px 1px 1px;
 }
@@ -88,7 +92,7 @@ body{
     position: absolute;
     width: 400px;
     height: 500px;
-    top: 1300px;
+    top: 10000px;
     left: 450px;
     background-color: rgb(47, 51, 52);color: rgb(222, 215, 2);
     text-align: center;
@@ -130,6 +134,22 @@ height: 800px;
     width: 600px;
     height:500px; 
 }
+.butto button{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    top: 70px;
+    left: 500px;
+    box-shadow: 4px 4px 3px 0px gold;
+    margin-left: 40px;
+}
+.butto:hover button{
+    width: 90px;
+    height: 40px;
+    animation: 3s;
+    
+    box-shadow: 4px 4px 3px 0px rgb(0, 255, 238);
+}
 
 @media only screen and (max-width:960px){
    
@@ -149,14 +169,14 @@ height: 800px;
         position: absolute;
         width:300px;
         left: 0px;
-        top: 0px;
+        top: -30px;
         text-align: center;
     }
     .chagi-sogi p{
       
     }
-    .ul ul,li,a{ 
-        width: 70px;
+    .home ul,li{ 
+        width: 200px;
     }
 
 }
