@@ -4,15 +4,92 @@ body{
     padding: 0px;
     display: inline-block;
 }
+.tarmoq > ul,li,a{
+    position:absolute;
+    display: flex;
+    top: 8px;
+    left: -590px;
+    margin-left: 10px;
+}
+.ul ul,li,a{
+    position: relative;
+    color: gold;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 6px;
+    font-size: 15px;
+    left: 300px;
+ 
+   
+}
 
+.ul :hover a{ 
+    color: aqua;
+    box-shadow: 1px 1px 1px 1px;
+}
+.header a{
+    box-shadow: 1px 1px 1px 1px;
+
+}
+.sardor{
+    position:relative;
+    width:350px;
+   height: 350px;
+   border-radius: 50%;
+   top: 0px;
+   left: 500px;
+    box-shadow: 3px 4px 3px 5px rgb(59, 61, 62); 
+
+}
+.sardor:hover{
+    box-shadow: 3px 4px 5px 6px gold;
+  
+  
+}
+.chagi-sogi{
+    position:relative;
+    left: 150px;
+    top: 50px;
+}
+.chagi-sogi h2{
+    position:relative;
+    left: 200px;
+    color: aliceblue;
+    box-shadow: 11px 13px 8px 2px rgb(0 0 0);
+}
+.chagi-sogi span{
+    color: rgb(131, 177, 172);
+    position: relative;
+    left: 203px;
+    top: -57px;
+    box-shadow:2px 3px 5px 4px rgb(0 0 0);
+}
+.chagi-sogi  h1{
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    box-shadow: 1px  1px 1px 1px gold;
+   
+    left: 95px;
+}
+.chagi-sogi  p{
+    position: relative;
+  
+    color: aliceblue;
+    left: 95px;
+    top: -300px;
+    box-shadow: 2px  1px 3px 2px rgb(75, 75, 75);
+ }
+        /* kitob  */
 .continer{
     background-image: url(https://wallpapercave.com/dwp1x/wp8528062.jpg );
     background-size: 400px;
     position: absolute;
     width: 400px;
     height: 500px;
-    top: 150px;
-    left: 500px;
+    top: 1300px;
+    left: 450px;
     background-color: rgb(47, 51, 52);color: rgb(222, 215, 2);
     text-align: center;
    box-shadow: 2px 3px 4px 5px rgb(75, 75, 75);
@@ -42,4 +119,44 @@ transform: translateY(290px);
     position: relative;
     top: 270px;
     left: -77px;
+}
+.video1 {
+    position: relative;
+    left: 30%;
+width: 800px;
+height: 800px;
+}
+.video2{
+    width: 600px;
+    height:500px; 
+}
+
+@media only screen and (max-width:960px){
+   
+    
+}
+
+@media only screen and (max-width:768px){
+    .chagi-sogi{
+        left: 3px;
+        top: 0px;
+        width:300px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:576px){
+    .chagi-sogi{
+        position: absolute;
+        width:300px;
+        left: 0px;
+        top: 0px;
+        text-align: center;
+    }
+    .chagi-sogi p{
+      
+    }
+    .ul ul,li,a{ 
+        width: 70px;
+    }
+
 }
