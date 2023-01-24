@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(47, 51, 52);
+    background-color:rgb(0, 84, 35);
     margin: 0px;
     padding: 0px;
     display: inline-block;
@@ -80,10 +80,24 @@ img:hover.sardor{
    margin-left: 20px;
     box-shadow: 2px 2px 4px 2px gold;
 }
+.malumot{
+    position: relative;
+    width: 1442px;
+    height: 406px;
+    background-color: aliceblue;
+    top: 106px;
+}
+.pnu{
+    position: relative;
+    left: 220px;
+    color: rgb(250, 213, 8);
+}
 
 /* index html  tugashi*/
+/* Myportfolio */
 .video1{
     position: relative;
+    top: 0px;
     left: 30%;
 width: 800px;
 height: 800px;
@@ -92,39 +106,27 @@ height: 800px;
     position:relative ;
     width: 800px;
     height: 800px;
-    top: -297px;
-    left: 239px;
+    top: -14px;
+    left: 238px;
+    color: aliceblue;
   
 }
-.butto button{
-    position: relative;
-    width: 80px;
-    height: 40px;
-    top: 70px;
-    left: 500px;
-    box-shadow: 4px 4px 3px 0px gold;
-    margin-left: 40px;
-}
-.butto:hover button{
-    width: 90px;
-    height: 40px;
-    animation: 3s;
-    
-    box-shadow: 4px 4px 3px 0px rgb(0, 255, 238);
-}
-/* Blog html */
 
+/* Blog html */
+.chagi-sogi{
+
+}
 
 
 
 /* Blog html tugashi*/
 
-@media only screen and (max-width:960px){
+@media  screen and (max-width:960px){
    
     
 }
 
-@media only screen and (max-width:768px){
+@media screen and (max-width:768px){
     .chagi-sogi{
         left: 3px;
         top: 0px;
@@ -132,18 +134,47 @@ height: 800px;
         text-align: center;
     }
 }
-@media only screen and (max-width:576px){
-    .chagi-sogi{
-        position: absolute;
-        width:300px;
-        left: 0px;
-        top: -30px;
-        text-align: center;
+@media  screen and (max-width:576px){
+    .profil{
+        width: 10px;
+
     }
-    .chagi-sogi p{
+    .list{
+        position: relative;
+      padding: -100px;
+      width: -4px;
+      top: -90px;
+      left: 9px;
+    }
+    .sardor{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 60px;
+        left:180px;
+    }
+    .icon-an{
+        position:relative;
+        width: 90px;
+        height: 30px;
+        top:590px;
+        left: 70px;
+    }
+    .pnu{
+        position: relative;
+       float: left ;
+       display: inline;
+       width: 200px;
+       height: 469px;
+       left: 150px;
+       top: 100px;
+       font-size: 6px;
+       text-align: center;
+   
       
     }
-    .home ul,li{ 
+    .coll{ 
+        position: absolute;
         width: 200px;
     }
 
