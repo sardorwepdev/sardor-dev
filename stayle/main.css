@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(0, 84, 35);
+    background-color:rgb(247, 247, 247);
     margin: 0px;
     padding: 0px;
     justify-content: space-between;
@@ -115,6 +115,7 @@ height: 800px;
 
 /* Blog html */
 .chagi-sogi{
+    font-size: 15px;
 
 }
 
@@ -195,6 +196,19 @@ height: 800px;
        font-size: 12px;
 
         color: #000000;
+     }
+     /* blog */
+     .chagi-sogi{
+     align-items: flex-end;
+        position: relative;
+        width: 460px;
+        left: 30px;
+        font-size: 21px;
+       
+        background-color: rgb(255, 255, 255);
+     }
+     .chagi-sogi:hover{
+       color: #000000;
      }
 }
 
