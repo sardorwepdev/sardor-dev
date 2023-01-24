@@ -4,135 +4,97 @@ body{
     padding: 0px;
     display: inline-block;
 }
-.tarmoq > ul,li,a{
-    position:absolute;
-    display: flex;
-    top: 8px;
-    left: -590px;
-    margin-left: 10px;
-    position: fixed;
+.profil{
+background-color: rgb(0, 84, 35);
+width: 1500px;
+height: 600px;
+bottom: -10px;
 }
-.home ul,li,a{
+/* index html */
+.list {
     position: relative;
-    color: gold;
-    display: flex;
-    text-decoration: none;
+    color: aliceblue;
     list-style: none;
-    padding: 6px;
-    font-size: 15px;
-    left: 300px;
-   
-   
+    display: flex;
+    width: 70px;
+    height: 40px;
+    left: 838px;
+    top: 10px;
+    font-size: 15px; 
 }
-.home{
-    position: fixed;
+.item{
+
+padding: 20px;
+}
+.item:hover a{
+  transition: all 0,5s;
+    box-shadow: 2px 2px 4px 2px rgb(12, 4, 239);
+}
+.item a{
+    position: relative;
+    text-decoration:none;
+    color: gold;
+    top: 7px;
+    padding: 7px;
+   margin-left:10px;
+    box-shadow: 2px 2px 4px 2px gold;
+}
+.item{
+  position:relative;
+  top: 40px;
 }
 
-.home :hover a{ 
-    color: aqua;
-    box-shadow: 1px 1px 1px 1px;
-}
-.header a{
-    box-shadow: 1px 1px 1px 1px;
-
-}
 .sardor{
-    position:relative;
-    width:350px;
-   height: 350px;
-   border-radius: 50%;
-   top: 0px;
-   left: 500px;
-    box-shadow: 3px 4px 3px 5px rgb(59, 61, 62); 
-
-}
-.sardor:hover{
-    box-shadow: 3px 4px 5px 6px gold;
-  
-  
-}
-.chagi-sogi{
-    position:relative;
-    left: 150px;
-    top: 50px;
-}
-.chagi-sogi h2{
-    position:relative;
-    left: 200px;
-    color: aliceblue;
-    box-shadow: 11px 13px 8px 2px rgb(0 0 0);
-}
-.chagi-sogi span{
-    color: rgb(131, 177, 172);
-    position: relative;
-    left: 203px;
-    top: -57px;
-    box-shadow:2px 3px 5px 4px rgb(0 0 0);
-}
-.chagi-sogi  h1{
-    position: relative;
-    text-align: center;
-    color: aliceblue;
-    box-shadow: 1px  1px 1px 1px gold;
-   
-    left: 95px;
-}
-.chagi-sogi  p{
-    position: relative;
-  
-    color: aliceblue;
-    left: 95px;
-    top: -300px;
-    box-shadow: 2px  1px 3px 2px rgb(75, 75, 75);
- }
-        /* kitob  */
-.continer{
-    background-image: url(https://wallpapercave.com/dwp1x/wp8528062.jpg );
-    background-size: 400px;
-    position: absolute;
-    width: 400px;
-    height: 500px;
-    top: 10000px;
-    left: 450px;
-    background-color: rgb(47, 51, 52);color: rgb(222, 215, 2);
-    text-align: center;
-   box-shadow: 2px 3px 4px 5px rgb(75, 75, 75);
-  overflow: hidden;
     
-}
-
-.box-2{
-    position:absolute;
-    top: 290px;
-}
-p{
-transform: translateY(290px);
-}
-.continer :hover.box-2 p{
-    transition:  1s;
-    position: relative;
- transform: translate(0px);
- text-align: center;
- overflow: hidden;
- color: rgb(249, 244, 244);
- left: 19px;
+    position:relative;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    left: 437px;
+    top: 10px;
+    box-shadow: 7px 8px 3px 1px #000000;
  
 }
 
-.box-3{
-    position: relative;
-    top: 270px;
-    left: -77px;
+img:hover.sardor{
+    transition: all 3s ease-in;
+    border-radius: 45%;
+    transform: rotate(50px);
+    box-shadow:4px 1px 10px 5px rgb(0, 0, 0);
 }
-.video1 {
+/* icon */
+.icon-an {
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    top: 30px;
+   
+
+}
+.icon-item a{
+    text-decoration:none;
+    color: gold;
+    top: 5px;
+    padding: 15px;
+   margin-left: 20px;
+    box-shadow: 2px 2px 4px 2px gold;
+}
+
+/* index html  tugashi*/
+.video1{
     position: relative;
     left: 30%;
 width: 800px;
 height: 800px;
 }
-.video2{
-    width: 600px;
-    height:500px; 
+.video > p{
+    position:relative ;
+    width: 800px;
+    height: 800px;
+    top: -297px;
+    left: 239px;
+  
 }
 .butto button{
     position: relative;
@@ -150,6 +112,12 @@ height: 800px;
     
     box-shadow: 4px 4px 3px 0px rgb(0, 255, 238);
 }
+/* Blog html */
+
+
+
+
+/* Blog html tugashi*/
 
 @media only screen and (max-width:960px){
    
