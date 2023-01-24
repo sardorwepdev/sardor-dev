@@ -136,46 +136,48 @@ height: 800px;
 }
 @media  screen and (max-width:576px){
     .profil{
+       
+        justify-content: space-between;
         width: 10px;
+       
 
     }
     .list{
         position: relative;
       padding: -100px;
       width: -4px;
-      top: -90px;
+      top: -70px;
       left: 9px;
+      justify-content: space-between;
     }
     .sardor{
         width: 200px;
         height: 200px;
         position: relative;
         top: 60px;
-        left:180px;
+        left: 170px;
     }
     .icon-an{
         position:relative;
         width: 90px;
         height: 30px;
-        top:590px;
-        left: 70px;
+        top:500px;
+        left: 80px;
     }
     .pnu{
         position: relative;
        float: left ;
        display: inline;
-       width: 200px;
-       height: 469px;
-       left: 150px;
-       top: 100px;
+       width: 300px;
+       
+       left: 120px;
+       top: 80px;
        font-size: 6px;
        text-align: center;
    
       
-    }
-    .coll{ 
-        position: absolute;
-        width: 200px;
-    }
-
+     }
+       /*   myportfolio */
+    
 }
+
