@@ -225,17 +225,24 @@ height: 800px;
      .chagi-sogi{
         position: relative;
         width: 400px;
+      
         font-size: 15px;
       color: rgb(255, 255, 255);
      }
      .sajin{
         position: relative;
-      left: 390px;
-        width: 400px;
-        height: 400px;
+      left: -25px;
+        width: 200px;
+        height: 200px;
         border-radius: 20%;
         margin: 0 auto;
         box-shadow: 2px 2px 4px 2px rgb(202, 202, 202);
+     }
+     .chagi-sogi p{
+      position: relative;
+      left: 50px;
+      width: 250px;
+
      }
      /* kitob */
      
