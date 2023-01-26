@@ -230,10 +230,11 @@ height: 800px;
       color: rgb(255, 255, 255);
      }
      .sajin{
+      margin:0 auto;
        text-align: center;
       position: relative;
-      left: 10px;
-        width: 200px;
+      left: 40px;
+        width: 50%;
         height: 200px;
         border-radius: 20%;
         margin: 0 auto;
@@ -242,8 +243,14 @@ height: 800px;
      .chagi-sogi p{
       position: relative;
       left: 70px;
-      width: 300px;
-
+      font-size: 16px;
+      width: 370px;
+      
+     }
+     .chagi-sogi h1{
+      position: relative;
+        left: 60px;
+        box-shadow: 1px 2px 1px 2px rgb(255, 204, 0);
      }
      /* kitob */
      
