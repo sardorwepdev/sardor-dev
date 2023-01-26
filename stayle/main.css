@@ -230,7 +230,8 @@ height: 800px;
       color: rgb(255, 255, 255);
      }
      .sajin{
-        position: relative;
+       text-align: center;
+      position: relative;
       left: -25px;
         width: 200px;
         height: 200px;
