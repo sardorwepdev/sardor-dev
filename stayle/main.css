@@ -232,7 +232,7 @@ height: 800px;
      .sajin{
        text-align: center;
       position: relative;
-      left: -25px;
+      left: 10px;
         width: 200px;
         height: 200px;
         border-radius: 20%;
@@ -241,8 +241,8 @@ height: 800px;
      }
      .chagi-sogi p{
       position: relative;
-      left: 50px;
-      width: 250px;
+      left: 70px;
+      width: 300px;
 
      }
      /* kitob */
