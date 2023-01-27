@@ -118,7 +118,32 @@ height: 800px;
     color: aliceblue;
   
 }
+/* kitob */
+.kitob{
+ position: relative;
+ left: 300px;
+  color: aliceblue;
+  width: 800px;
+}
+.kitob p{
+  position: relative;
+  left: 10px;
+   color: aliceblue;
+   width: 700px;
+ }
+ .quyosh{
+position: relative;
+width: 700px;
+height: 300px;
+left: 13px;
+ }
+ .manzra{
+  position: relative;
+width: 680px;
+height: 400px;
+left: 13px;
 
+ }
 /* Blog html */
 .chagi-sogi p{
     position:absolute;
@@ -266,7 +291,7 @@ height: 800px;
       .gudag{
         width: 400px;
       }
-
+    
     }
     @keyframes sardor{
         0%{
@@ -277,3 +302,5 @@ height: 800px;
             transform: translate(60deg);
         }
     }
+    /* sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
+    
