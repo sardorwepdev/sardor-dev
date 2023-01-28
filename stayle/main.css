@@ -409,7 +409,8 @@ left: 13px;
       color: rgb(255, 255, 255);
       }
       .kitob p{
-        width: 100%;
+        width: 479px;
+        left: 40px;
         text-align: center;
         font-size: 16px;
       }
