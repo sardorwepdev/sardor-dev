@@ -402,20 +402,20 @@ left: 13px;
       .kitob{
         align-items: flex-end;
         position: relative;
-        width: 430px;
-        left: 30px;
+        width: 100%;
+      
         font-size: 11px;
      
       color: rgb(255, 255, 255);
       }
       .kitob p{
-        width: 340px;
+        width: 100%;
         text-align: center;
         font-size: 16px;
       }
       .gudag{
-        left: 20px;
-        width: 400px;
+     
+        width:100%;
       }
     
     }
