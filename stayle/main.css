@@ -171,17 +171,137 @@ left: 13px;
 @media  screen and (max-width:960px){
    
     
-}
+
 
 @media screen and (max-width:768px){
-    .chagi-sogi{
-        left: 3px;
-        top: 0px;
-        width:300px;
-        text-align: center;
+  body{
+  }
+  .profil{
+     right: 0px;
+      justify-content: space-between;
+      width: 10px;
+     
+
+  }
+  .list{
+      position: relative;
+    padding: -100px;
+    width: -4px;
+    top: -70px;
+    left: 9px;
+    justify-content: space-between;
+  }
+  .sardor{
+      width: 200px;
+      height: 200px;
+      position: relative;
+      top: 60px;
+      left: 170px;
+  }
+  .icon-an{
+      position:relative;
+      width: 90px;
+      height: 30px;
+      top:500px;
+      left: 80px;
+  }
+  .pnu{
+      position: relative;
+     float: left ;
+     display: inline;
+     width: 300px;
+     
+     left: 120px;
+     top: 80px;
+     font-size: 6px;
+     text-align: center;
+ 
+    
+   }
+     /*   myportfolio */
+   .video1{
+     position:relative;
+     top: -20px;
+    left: 40px;
+      width: 392px;
+      height: 360px;
+   }
+   .vedio2{
+     position:absolute;
+      width: 392px;
+      
+     top: 350px;
+    left: 58px;
+     font-size: 12px;
+     background-color: rgb(255, 255, 255);
+      color: #000000;
+   }
+   /* blog */
+   .chagi-sogi{
+      position: relative;
+      width: 400px;
+    
+      font-size: 15px;
+    color: rgb(255, 255, 255);
+   }
+   .sajin{
+    margin:0 auto;
+     text-align: center;
+    position: relative;
+    left: 40px;
+      width: 50%;
+      height: 200px;
+      border-radius: 20%;
+      margin: 0 auto;
+      box-shadow: 2px 2px 4px 2px rgb(202, 202, 202);
+   }
+   .chagi-sogi p{
+    position: relative;
+    left: 70px;
+    font-size: 16px;
+    width: 370px;
+    
+   }
+   .chagi-sogi h1{
+    position: relative;
+      left: 60px;
+      box-shadow: 1px 2px 1px 2px rgb(255, 204, 0);
+   }
+  }
+   /* kitob */
+   
+    .kitob{
+      align-items: flex-end;
+      position: relative;
+      width: 630px;
+      left: 30px;
+      font-size: 11px;
+   
+    color: rgb(255, 255, 255);
     }
+    .kitob p{
+      width: 490px;
+      left: 30px;
+      font-size: 18px;
+    }
+    .gudag{
+      width: 520px;
+    }
+
+  
+  
+  @keyframes sardor{
+      0%{
+          transform: rotate(50deg);
+          box-shadow:4px 1px 10px 5px rgb(220, 0, 0);
+      }
+      100%{
+          transform: translate(60deg);
+      }
 }
-@media  screen and (max-width:576px){
+}
+/* 576 telifonlar un*/
+@media  screen and (max-width:518px){
     body{
       position: relative;
       left: -49px;
@@ -290,10 +410,11 @@ left: 13px;
       }
       .kitob p{
         width: 340px;
-        left: 30px;
-        font-size: 14px;
+        text-align: center;
+        font-size: 16px;
       }
       .gudag{
+        left: 20px;
         width: 400px;
       }
     
